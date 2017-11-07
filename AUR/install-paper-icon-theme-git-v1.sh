@@ -1,10 +1,12 @@
 #!/bin/bash
-#
+set -e
 ##################################################################################################################
-# Written to be used on 64 bits computers
 # Author 	: 	Erik Dubois
-# Website 	: 	http://www.erikdubois.be
-##################################################################################################################
+# Website 	: 	https://www.erikdubois.be
+# Website	:	https://www.archmerge.info
+# Website	:	https://www.archmerge.com
+# Website	:	https://www.archmerged.com
+# Website	:	https://www.archmergeforum.com
 ##################################################################################################################
 #
 #   DO NOT JUST RUN THIS. EXAMINE AND JUDGE. RUN AT YOUR OWN RISK.
