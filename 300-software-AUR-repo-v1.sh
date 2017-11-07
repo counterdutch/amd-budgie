@@ -95,7 +95,6 @@ sh AUR/install-xcursor-breeze-v*.sh
 
 sh AUR/install-hardcode-fixer-git-v*.sh
 sudo hardcode-fixer
-sh AUR/install-zsh-v*.sh
 
 echo "################################################################"
 echo "####        Software from AUR Repository installed        ######"
