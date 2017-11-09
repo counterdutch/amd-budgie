@@ -20,7 +20,6 @@ echo "Installing category Accessories"
 sudo pacman -S --noconfirm --needed catfish
 sudo pacman -S --noconfirm --needed conky
 sudo pacman -S --noconfirm --needed galculator
-sudo pacman -S --noconfirm --needed gnome-screenshot
 sudo pacman -S --noconfirm --needed plank
 sudo pacman -S --noconfirm --needed redshift
 sudo pacman -S --noconfirm --needed xfburn
@@ -48,6 +47,7 @@ echo "Installing category Graphics"
 sudo pacman -S --noconfirm --needed darktable
 sudo pacman -S --noconfirm --needed gimp
 sudo pacman -S --noconfirm --needed gnome-font-viewer
+sudo pacman -S --noconfirm --needed gnome-screenshot
 sudo pacman -S --noconfirm --needed gpick
 sudo pacman -S --noconfirm --needed inkscape
 #sudo pacman -S --noconfirm --needed pinta
@@ -103,6 +103,7 @@ sudo pacman -S --noconfirm --needed gnome-terminal
 sudo pacman -S --noconfirm --needed gnome-tweak-tool
 sudo pacman -S --noconfirm --needed gparted
 sudo pacman -S --noconfirm --needed grsync
+sudo pacman -S --noconfirm --needed gtk-engine-murrine
 sudo pacman -S --noconfirm --needed gvfs gvfs-mtp
 sudo pacman -S --noconfirm --needed hardinfo
 sudo pacman -S --noconfirm --needed hddtemp
@@ -123,7 +124,9 @@ sudo pacman -S --noconfirm --needed simple-scan
 sudo pacman -S --noconfirm --needed sysstat
 sudo pacman -S --noconfirm --needed terminator
 sudo pacman -S --noconfirm --needed termite
-sudo pacman -S --noconfirm --needed thunar thunar-archive-plugin thunar-volman
+sudo pacman -S --noconfirm --needed thunar
+sudo pacman -S --noconfirm --needed thunar-archive-plugin
+sudo pacman -S --noconfirm --needed thunar-volman
 sudo pacman -S --noconfirm --needed ttf-ubuntu-font-family
 sudo pacman -S --noconfirm --needed ttf-droid
 sudo pacman -S --noconfirm --needed tumbler

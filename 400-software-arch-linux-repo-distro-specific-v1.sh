@@ -13,13 +13,35 @@ set -e
 #
 ##################################################################################################################
 
-# [    0.000000] [Firmware Bug]: TSC_DEADLINE disabled due to Errata; please update microcode to version: 0x52 (or later)
+# software from AUR (Arch User Repositories)
+# https://aur.archlinux.org/packages/
 
+#giving tmp folder extra gb in order not to run out of disk space while installing software
+#only if you run into issues with that
+#sudo mount -o remount,size=5G,noatime /tmp
 
-sudo pacman -S intel-ucode --noconfirm
-sudo grub-mkconfig -o /boot/grub/grub.cfg
+echo "DESKTOP SPECIFIC APPLICATIONS"
 
+echo "Installing category Accessories"
+
+echo "Installing category Development"
+
+echo "Installing category Education"
+
+echo "Installing category Games"
+
+echo "Installing category Graphics"
+
+echo "Installing category Internet"
+
+echo "Installing category Multimedia"
+
+echo "Installing category Office"
+
+echo "Installing category Other"
+
+echo "Installing category System"
 
 echo "################################################################"
-echo "####                             Fix done                 ######"
+echo "####    Software from Arch Linux Repository installed     ######"
 echo "################################################################"

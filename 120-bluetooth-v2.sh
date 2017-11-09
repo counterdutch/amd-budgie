@@ -22,7 +22,7 @@ sudo pacman -S --noconfirm --needed bluez-utils
 sudo pacman -S --noconfirm --needed bluez-firmware
 #in gnome-budgie we rely on this application
 sudo pacman -S --noconfirm --needed gnome-bluetooth
-#sudo pacman -S --noconfirm --needed blueberry pavucontrol
+#sudo pacman -S --noconfirm --needed blueberry
 
 sudo systemctl enable bluetooth.service
 sudo systemctl start bluetooth.service
