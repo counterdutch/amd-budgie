@@ -20,6 +20,7 @@ echo "Installing category Accessories"
 sudo pacman -S --noconfirm --needed catfish
 sudo pacman -S --noconfirm --needed conky
 sudo pacman -S --noconfirm --needed galculator
+sudo pacman -S --noconfirm --needed gnome-screenshot
 sudo pacman -S --noconfirm --needed plank
 sudo pacman -S --noconfirm --needed redshift
 sudo pacman -S --noconfirm --needed xfburn
@@ -47,7 +48,6 @@ echo "Installing category Graphics"
 sudo pacman -S --noconfirm --needed darktable
 sudo pacman -S --noconfirm --needed gimp
 sudo pacman -S --noconfirm --needed gnome-font-viewer
-sudo pacman -S --noconfirm --needed gnome-screenshot
 sudo pacman -S --noconfirm --needed gpick
 sudo pacman -S --noconfirm --needed inkscape
 #sudo pacman -S --noconfirm --needed pinta
