@@ -29,7 +29,7 @@ Learn, have fun and enjoy.
 # Websites
 
 Information
-https://archmerge.hardinfo
+https://archmerge.info
 
 Tutorials about ArchMerge iso (Xfce, Openbox and i3)
 https://archmerge.com
