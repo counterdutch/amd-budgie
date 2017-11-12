@@ -46,10 +46,17 @@ https://archmergeforum.com
 # Social Media
 
 Facebook : https://www.facebook.com/archmergelinux/
+
 Facebook : https://www.facebook.com/groups/archmerge/
+
 Google + : https://plus.google.com/u/0/communities/109343992040963164975
+
 Flickr   : https://www.flickr.com/photos/archmerge/
+
 Twitter  : https://twitter.com/ArchMerge
+
 Instagram: https://www.instagram.com/archmerge/
+
 Linked in: https://www.linkedin.com/in/archmerge/
+
 Youtube  : https://www.youtube.com/erikdubois
