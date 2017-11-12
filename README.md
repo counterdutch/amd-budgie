@@ -10,7 +10,7 @@ Tutorials on https://archmerged.com
 
 # Vision
 
-This github will not only install Budgie desktop.
+This github will not only install the desktop.
 But we will install all needed software.
 
 We will also make it very easy to have a desktop you can be proud of.
