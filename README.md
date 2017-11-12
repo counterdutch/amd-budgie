@@ -13,15 +13,14 @@ Tutorials on https://archmerged.com
 This github will not only install Budgie desktop.
 But we will install all needed software.
 
-Change the scripts to give it a personal touch.
-Hashtag out the applications you do not want.
-Copy/paste lines and add applications you do want.
-
 We will also make it very easy to have a desktop you can be proud of.
 All icons, themes, cursors, wallpapers, conky's  will be there.
 Just select them.
 
-And run the scripts.
+Change the scripts to give it a personal touch.
+Hashtag out the applications you do not want.
+Copy/paste lines and add applications you do want.
+And then run the scripts.
 
 Learn, have fun and enjoy.
 
