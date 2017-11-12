@@ -32,21 +32,13 @@ Learn, have fun and enjoy.
 
 # Websites
 
-Information
+Information : https://archmerge.info
 
-https://archmerge.info
+Tutorials about ArchMerge iso (Xfce, Openbox and i3) : https://archmerge.com
 
-Tutorials about ArchMerge iso (Xfce, Openbox and i3)
+Tutorials about ArchMergeD iso (any desktop) : https://archmerged.com
 
-https://archmerge.com
-
-Tutorials about ArchMergeD iso (any desktop)
-
-https://archmerged.com
-
-Forum
-
-https://archmergeforum.com
+Forum : https://archmergeforum.com
 
 
 # Social Media
