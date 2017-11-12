@@ -22,7 +22,8 @@ Hashtag out the applications you do not want.
 Copy/paste lines and add applications you do want.
 And then run the scripts.
 
-If we would make an iso, you would have not this choice. Now you do.
+If we would make an iso, you would not have this choice, this freedom.
+Now you do.
 
 Learn, have fun and enjoy.
 
