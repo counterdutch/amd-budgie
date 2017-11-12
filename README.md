@@ -21,6 +21,7 @@ Change the scripts to give it a personal touch.
 Hashtag out the applications you do not want.
 
 Copy/paste lines and add applications you do want.
+
 And then run the scripts.
 
 If we would make an iso, you would not have this choice, this freedom.
