@@ -19,6 +19,7 @@ Just select them.
 
 Change the scripts to give it a personal touch.
 Hashtag out the applications you do not want.
+
 Copy/paste lines and add applications you do want.
 And then run the scripts.
 
