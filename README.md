@@ -33,15 +33,19 @@ Learn, have fun and enjoy.
 # Websites
 
 Information
+
 https://archmerge.info
 
 Tutorials about ArchMerge iso (Xfce, Openbox and i3)
+
 https://archmerge.com
 
 Tutorials about ArchMergeD iso (any desktop)
+
 https://archmerged.com
 
 Forum
+
 https://archmergeforum.com
 
 
