@@ -22,7 +22,10 @@ sudo pacman -S lib32-libxinerama --needed --noconfirm
 sudo pacman -S lib32-libxrender --needed --noconfirm
 sudo pacman -S lib32-libjpeg6-turbo --needed --noconfirm
 sudo pacman -S lib32-libxtst --needed --noconfirm
+sudo pacman -S lib32-dbus --needed --noconfirm
 
+wget https://archive.archlinux.org/packages/l/lib32-freetype2/lib32-freetype2-2.8-2-x86_64.pkg.tar.xz
+sudo pacman -U lib32-freetype2-2.8-2-x86_64.pkg.tar.xz --needed --noconfirm
 
 package="teamviewer"
 
@@ -42,7 +45,7 @@ else
 
 		echo "Installing with yaourt"
 		yaourt -S --noconfirm $package
-		
+
 	elif pacman -Qi pacaur &> /dev/null; then
 
 		echo "Installing with pacaur"
