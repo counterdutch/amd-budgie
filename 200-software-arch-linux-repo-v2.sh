@@ -19,7 +19,6 @@ echo "Installing category Accessories"
 
 sudo pacman -S --noconfirm --needed catfish
 sudo pacman -S --noconfirm --needed cmatrix
-sudo pacman -S --noconfirm --needed conky
 sudo pacman -S --noconfirm --needed galculator
 sudo pacman -S --noconfirm --needed gnome-screenshot
 sudo pacman -S --noconfirm --needed plank
@@ -68,6 +67,7 @@ sudo pacman -S --noconfirm --needed transmission-gtk
 echo "Installing category Multimedia"
 
 sudo pacman -S --noconfirm --needed clementine
+sudo pacman -S --noconfirm --needed deadbeef
 sudo pacman -S --noconfirm --needed openshot
 sudo pacman -S --noconfirm --needed shotwell
 sudo pacman -S --noconfirm --needed simplescreenrecorder
@@ -134,6 +134,7 @@ sudo pacman -S --noconfirm --needed tumbler
 sudo pacman -S --noconfirm --needed vnstat
 sudo pacman -S --noconfirm --needed wget
 sudo pacman -S --noconfirm --needed unclutter
+sudo pacman -S --noconfirm --needed rxvt-unicode
 sudo pacman -S --noconfirm --needed xdg-user-dirs
 #sudo pacman -S --noconfirm --needed
 
@@ -144,6 +145,22 @@ sudo pacman -S --noconfirm --needed xdg-user-dirs
 sudo pacman -S --noconfirm --needed unace unrar zip unzip sharutils  uudeview  arj cabextract file-roller
 
 ###############################################################################################
+
+#avoiding an error if you have installed conky-lua-nv and rerun this script later
+#that tries to install the conky package
+package="conky-lua-nv"
+
+if pacman -Qi $package &> /dev/null; then
+
+	echo "################################################################"
+	echo "################## "$package" is already installed"
+	echo "################################################################"
+
+else
+
+  sudo pacman -S --noconfirm --needed conky
+
+fi
 
 echo "################################################################"
 echo "#### Software from standard Arch Linux Repo installed  #########"
