@@ -1,23 +1,22 @@
 #!/bin/bash
 set -e
 ##################################################################################################################
+# Written to be used on 64 bits computers
 # Author 	: 	Erik Dubois
-# Website 	: 	https://www.erikdubois.be
-# Website	:	https://www.archmerge.info
-# Website	:	https://www.archmerge.com
-# Website	:	https://www.archmerged.com
-# Website	:	https://www.archmergeforum.com
+# Website 	: 	http://www.erikdubois.be
+##################################################################################################################
 ##################################################################################################################
 #
 #   DO NOT JUST RUN THIS. EXAMINE AND JUDGE. RUN AT YOUR OWN RISK.
 #
 ##################################################################################################################
 
-echo "AUR - DESKTOP SPECIFIC APPLICATIONS "
+echo "loading all shortcuts"
 
-
-sh AUR/install-yad-v*.sh
+cd settings/keyboard-shortcuts
+sh dconf_load.sh
 
 echo "################################################################"
-echo "####       Software from AUR-DS folder installed          ######"
+echo "#########       keyboard shortcuts set          ################"
 echo "################################################################"
+

@@ -13,16 +13,20 @@ set -e
 #
 ##################################################################################################################
 
-#Sound
-sudo pacman -S pulseaudio --noconfirm --needed
-sudo pacman -S pulseaudio-alsa --noconfirm --needed
-#sudo pacman -S pavucontrol  --noconfirm --needed
-sudo pacman -S alsa-utils alsa-plugins alsa-lib alsa-firmware --noconfirm --needed
-sudo pacman -S gstreamer --noconfirm --needed
-sudo pacman -S gst-plugins-good gst-plugins-bad gst-plugins-base gst-plugins-ugly --noconfirm --needed
-#sudo pacman -S volumeicon --noconfirm --needed
-#sudo pacman -S playerctl --noconfirm --needed
+echo "Installing fonts"
+
+sudo pacman -S adobe-source-sans-pro-fonts --noconfirm --needed
+sudo pacman -S cantarell-fonts --noconfirm --needed
+sudo pacman -S noto-fonts --noconfirm --needed
+sudo pacman -S terminus-font --noconfirm --needed
+sudo pacman -S ttf-bitstream-vera --noconfirm --needed
+sudo pacman -S ttf-dejavu --noconfirm --needed
+sudo pacman -S ttf-droid --noconfirm --needed
+sudo pacman -S ttf-inconsolata --noconfirm --needed
+sudo pacman -S ttf-liberation --noconfirm --needed
+sudo pacman -S ttf-roboto --noconfirm --needed
+sudo pacman -S ttf-ubuntu-font-family --noconfirm --needed
 
 echo "################################################################"
-echo "#########   sound software software installed   ################"
+echo "####             Fonts have been installed                  ####"
 echo "################################################################"

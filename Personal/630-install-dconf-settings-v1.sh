@@ -13,9 +13,12 @@ set -e
 #
 ##################################################################################################################
 
-cp -rf settings/root/.bashrc ~
-cp -rf settings/root/.conkyrc ~
+echo "dconf settings must be copied over"
+
+[ -d $HOME"/.config/dconf" ] || mkdir -p $HOME"/.config/dconf"
+
+cp -r settings/dconf/* ~/.config/dconf/
 
 echo "################################################################"
-echo "#########      root files copied                ################"
+echo "#########      dconf settings  copied           ################"
 echo "################################################################"

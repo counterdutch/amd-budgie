@@ -13,14 +13,12 @@ set -e
 #
 ##################################################################################################################
 
-echo "Copy/pasting config to config folder"
+echo "Everywhere Breeze-snow as cursor"
+echo "Change cursor if you want"
 
-[ -d $HOME"/.config/variety" ] || mkdir -p $HOME"/.config/variety"
-
-cp settings/variety/* ~/.config/variety/
-
+sudo cp -r Personal/settings/default/index.theme /usr/share/icons/default/
 
 
 echo "################################################################"
-echo "#########       variety installed               ################"
+echo "####           TO SEE IT EFFECT YOU MUST LOG OFF          ######"
 echo "################################################################"

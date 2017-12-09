@@ -1,22 +1,23 @@
 #!/bin/bash
-set -e
+#
 ##################################################################################################################
+# Written to be used on 64 bits computers
 # Author 	: 	Erik Dubois
-# Website 	: 	https://www.erikdubois.be
-# Website	:	https://www.archmerge.info
-# Website	:	https://www.archmerge.com
-# Website	:	https://www.archmerged.com
-# Website	:	https://www.archmergeforum.com
+# Website 	: 	http://www.erikdubois.be
+##################################################################################################################
+
 ##################################################################################################################
 #
-#   DO NOT JUST RUN THIS. EXAMINE AND JUDGE. RUN AT YOUR OWN RISK.
+#   DO NOT JUST RUN THIS. EXAMINE AND JUDGE. AT YOUR OWN RISK.
 #
 ##################################################################################################################
 
-echo "ArchMerge Repository"
+sudo pacman -S dconf dconf-editor --noconfirm --needed
 
-sudo pacman -S archmerge-plank-themes-git --noconfirm --needed
+dconf dump /org/cinnamon/desktop/keybindings/ > keyboard-shortcuts-cinnamon.dconf
 
 echo "################################################################"
-echo "####     Software from ArchMerge Repository installed       ####"
+echo "###################    shortcuts dumped   ######################"
 echo "################################################################"
+
+sleep 1
