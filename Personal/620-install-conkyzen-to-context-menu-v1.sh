@@ -19,10 +19,10 @@ echo "Right mouse click give conkyzen"
 
 [ -d $HOME"/.local" ] || mkdir -p $HOME"/.local"
 [ -d $HOME"/.local/share" ] || mkdir -p $HOME"/.local/share"
-[ -d $HOME"/.local/share/nemo" ] || mkdir -p $HOME"/.local/share/nemo"
-[ -d $HOME"/.local/share/nemo/scripts" ] || mkdir -p $HOME"/.local/share/nemo/scripts"
+[ -d $HOME"/.local/share/nautilus" ] || mkdir -p $HOME"/.local/share/nautilus"
+[ -d $HOME"/.local/share/nautilus/scripts" ] || mkdir -p $HOME"/.local/share/nautilus/scripts"
 
-cp settings/nemo/conkyzen/* ~/.local/share/nemo/scripts/
+cp settings/nautilus/conkyzen/* ~/.local/share/nautilus/scripts/
 
 echo "################################################################"
 echo "#########          conkyzen  installed          ################"
